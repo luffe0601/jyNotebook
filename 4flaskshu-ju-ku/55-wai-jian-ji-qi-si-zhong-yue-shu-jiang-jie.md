@@ -1,6 +1,6 @@
 # 55 外键及其四种约束讲解
 
-在MySQL中，外键可以让表之间的关系更加紧密，而SQLAlchemy同样支持外键。通过FpreignKey类来实现，并且可以指定表的外键约束。相关示例代码如下:
+在MySQL中，外键可以让表之间的关系更加紧密，而SQLAlchemy同样支持外键。通过ForeignKey类来实现，并且可以指定表的外键约束。相关示例代码如下:
 
 ```text
 from sqlalchemy import create_engine, Column, Integer, Text, String, 
